@@ -1,0 +1,13 @@
+{
+  "name": "brrp-roleplay-broadcaster",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Windows console roleplay broadcast rotation for authorized Roblox server use",
+  "scripts": {
+    "build": "pkg --sea brrp-broadcaster.js --output dist/BRRP-Broadcaster-PingTone.exe"
+  },
+  "devDependencies": {
+    "@yao-pkg/pkg": "^6.5.1"
+  },
+  "bin": "brrp-broadcaster.js"
+}
